@@ -1,0 +1,232 @@
+@import "icons";
+@import "variables";
+
+.navbar-left {
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    z-index: 1000;
+    width: 56px;
+    height: 100vh !important;
+    position: fixed;
+    background-color: $white;
+    border-right: 1px solid $navbar-border-right-color;
+
+    ul.menubar {
+        li.menu-item {
+            position: relative;
+            overflow: hidden;
+
+            > a {
+                color: $black;
+                width: 100%;
+                display: block;
+
+                .icon {
+                    display: inline-block;
+                    vertical-align: middle;
+                    transform: scale(0.7);
+                    margin-left: 3px;
+                }
+
+                .menu-label {
+                    display: none;
+                    color: $menu-label-text-color;
+                }
+
+                .arrow-icon {
+                    display: none;
+                }
+
+                .arrow-icon-left {
+                    float: right;
+                }
+
+                .arrow-icon-right {
+                    float: left;
+                    margin-left: 20px;
+                }
+            }
+
+            span {
+                display: block;
+                margin: auto;
+            }
+
+            ul.sub-menubar {
+                display: none;
+                min-width: 200px;
+                position: absolute;
+                top: 0;
+                left: 56px;
+                z-index: 1000;
+                background-color: $white;
+                box-shadow: 2px 1px 3px $submenu-shadow-color;
+                border: 1px solid $submenu-border-color;
+                border-left: 0;
+                border-radius: 0 3px 3px 0;
+
+                li.sub-menu-item {
+                    a {
+                        display: block;
+                        padding: 8px 12px;
+                        color: $black;
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            &:hover {
+                overflow: visible;
+                background: $menu-item-hover-color;
+
+                ul.sub-menubar {
+                    display: block;
+
+                    .sub-menu-item {
+                        .menu-label {
+                            color: $black;
+                        }
+
+                        &.active {
+                            background-color: $submenu-active-color;
+
+                            .menu-label {
+                                color: $blue;
+                            }
+                        }
+
+                        &:hover {
+                            .menu-label {
+                                color: $blue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .menubar-bottom {
+        padding: 12px;
+        cursor: pointer;
+        position: fixed;
+        bottom: 0;
+        background-color: $white;
+        width: 55px;
+        text-align: center;
+    }
+
+    &.open {
+        width: 210px;
+
+        ul.menubar {
+            overflow-y: auto;
+            height: 86%;
+
+            &::-webkit-scrollbar {
+                width: 0px !important;
+            }
+
+            li.menu-item {
+                a {
+                    .menu-label {
+                        font-weight: 200;
+                        display: inline-block;
+                        color: $black;
+                    }
+
+                    .arrow-icon {
+                        display: inline-block;
+                    }
+                }
+
+                ul.sub-menubar {
+                    display: none;
+                    position: unset;
+                    background-color: transparent;
+                    border-radius: 0;
+                    box-shadow: unset;
+                    border: 0;
+
+                    li.sub-menu-item {
+                        a {
+                            padding-left: 56px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                &.active {
+                    background: $white;
+                    width: 100%;
+
+                    .menu-label {
+                        color: $black;
+                    }
+
+                    ul.sub-menubar {
+                        display: block;
+                        background-color: $menu-item-hover-color;
+                        border: none !important;
+
+                        .sub-menu-item {
+                            .menu-label {
+                                color: $black;
+                            }
+
+                            &.active,
+                            &:hover {
+                                background-color: $submenu-border-color;
+
+                                .menu-label {
+                                    color: $black !important;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:hover {
+                    .menu-label {
+                        color: $black;
+                    }
+                }
+            }
+        }
+
+        .menubar-bottom {
+            width: 200px;
+        }
+    }
+}
+
+.dashboard .card {
+    min-height: 445px;
+    background-color: #fff;
+    border: 1px solid hsla(0,0%,63.5%,.2);
+    box-shadow: 0 5px 10px 2px hsl(0deg 0% 64% / 20%);
+    border-radius: .25rem;
+    padding: 20px 0 0 20px;
+    overflow: auto;
+}
+
+.content-container {
+    padding-left: 100px;
+}
+
+.product-price {
+    span {
+        font-size: 20px;
+    }
+
+    .regular-price {
+        color: $font-light;
+        text-decoration: line-through;
+        margin-right: 10px;
+    }
+
+    .special-price {
+        color: $disc-price;
+    }
+}

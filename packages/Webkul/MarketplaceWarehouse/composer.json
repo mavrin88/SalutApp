@@ -1,0 +1,25 @@
+{
+    "name": "bagisto/laravel-marketplace-warehouse",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gitesh Rautuela",
+            "email": "gitesh.rautela469@webkul.in"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webkul\\MarketplaceWarehouse\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\MarketplaceWarehouse\\Providers\\MarketplaceWarehouseServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

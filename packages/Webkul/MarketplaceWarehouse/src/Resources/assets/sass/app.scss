@@ -1,0 +1,60 @@
+.navigation {
+    li {
+        i {
+            &.icon {
+                &.warehouse::before {
+                    content: "\E996";
+                }
+
+                &.price::before {
+                    content: "\E956";
+                }
+            }
+        }
+    }
+}
+
+.nav-container {
+    .wrapper {
+        .vc-customer-options{
+            li {
+                i {
+                    &.icon {
+                        &.warehouse::before {
+                            content: "\E996";
+                        }
+
+                        &.price::before {
+                            content: "\E956";
+                        }
+                    }
+                }
+            }            
+        }        
+    }
+}
+
+i.icon.receipt-and-withdrawal:before {
+    content:'';
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/receipt.png");
+    display: inline-block !important;
+}
+
+i.icon.region:before {
+    content:'';
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/region.png");
+    display: inline-block !important;
+}
+
+.btn-sm {
+    max-height: 35px;
+    margin-right: 5px;
+}

@@ -1,0 +1,391 @@
+@media only screen and (max-width: 1140px) {
+    .seller-central-container {
+        .banner-container {
+            .banner-content {
+                p {
+                    margin: 10px 0;
+                }
+
+                .btn {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-container { 
+        .drawer-section {
+            z-index: 1!important;
+        }
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .account-head {
+        .account-action {
+            margin: 4px !important;
+            margin-right: 0px !important;
+            position: unset;
+
+            .control-group.date {
+                width: 49% !important;
+                margin-left: 0px !important;
+            }
+        }
+    }
+
+    .table {
+        .grid-container {
+            margin-top: 10px;
+
+            .filter-row-one {
+                display: block;
+            }
+        }
+    }
+
+    .dropdown-list.top-right {
+        bottom: auto;
+        right: auto;
+    }
+
+    .dropdown-filters {
+        margin-top: 10px;
+    }
+
+    .profile-container {
+        flex-direction: column;
+
+        .profile-top-block {
+            display: flex;
+            flex-direction: column;
+
+            .review-information {
+                text-align: left;
+            }
+        }
+
+        .profile-left-block {
+            width: 80%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .profile-right-block {
+            width: 100%;
+            padding-left: 0px;
+            margin-top: 20px;
+        }
+    }
+
+    .dashboard {
+        .card {
+            height: 100%;
+        }
+    }
+
+    .profile-details {
+        flex-direction: block;
+
+        .profile-details-left-block {
+            width: 100%;
+            padding-right: 0px;
+        }
+
+        .profile-details-right-block {
+            width: 100%;
+            padding-left: 0px;
+            margin-top: 10px;
+        }
+    }
+
+    .seller-central-container {
+        .popular-sellers-container {
+            .popular-sellers-list {
+                .popular-seller-item {
+                    display: flex;
+                    flex-direction: column;
+
+                    .profile-information {
+                        float: none;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+
+        .banner-container {
+            .banner-content {
+                padding: 30px;
+
+                h1 {
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+
+    .control-group.date::after,
+    .control-group.datetime::after {
+        position: absolute;
+        top: 32px;
+    }
+
+    .seller-profile-edit {
+        flex-direction: column;
+        height: 90px !important;
+    }
+
+    .account-content .account-layout {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .seller-central-container {
+        .banner-container {
+            .banner-content {
+                padding: 20px;
+                width: 65%;
+                height: 65%;
+                top: 17.5%;
+                right: 17.5%;
+
+                h1 {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+
+    #earningTable_wrapper, .section-content .table {
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .seller-central-container {
+        .about-marketplace-container {
+            div {
+                display: flex !important;
+                flex-direction: column !important;
+                width: 100% !important;
+                padding: 0px !important;
+            }
+        }
+    }
+
+    .velocity-popular-sellers-container .wrapper {
+        width: 100% ;
+
+        .profile-image img {
+            margin: 76px 0px 0px 62px !important;
+        }
+
+        .profile-upper-layout-2 {
+
+            .profile-image img {
+                margin: unset !important;
+            }
+        }
+    }
+
+    .velocity-card-layout-2 {
+        grid-template-columns: auto !important;
+        justify-items: center;
+
+        .center-info {
+            text-align: center !important;
+        }
+    }
+
+    .seller-central-container {
+        .banner-container.layout2 {
+            max-height: unset;
+
+            .banner-content-layout-2 {
+                h1{
+                    font-size: 40px;
+                    line-height: 45px;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+        }
+        .seller-registration-form {
+            width: 100%;
+            margin-bottom: 15px;
+
+            .VueCarousel-navigation {
+                width: auto !important;
+            }
+        }
+
+        .sell-products {
+
+            .selling-header {
+                h3 {
+                    font-size: 22px;
+                    line-height: 24px;
+                }
+            }
+            .sell-steps {
+                grid-template-columns: 0.1fr 0.9fr;
+
+                .sell-image {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .step {
+                    .step-bar {
+                        height: 140px;
+                        margin-left: 45.5px;
+                    }
+
+                    .step-number {
+                        margin-left: 20px;
+                    }
+                }
+            }
+            .sell-content {
+                grid-column-start: 1;
+                grid-column-end: 3;
+
+                h4 {
+                    font-size: 22px;
+                    line-height: 24px;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .feature-list-layout-2 {
+            .feature-list-li-layout-2 {
+                grid-template-columns: auto !important;
+                justify-items: center;
+
+                .feature-label {
+                    text-align: center!important;
+                }
+            }
+        }
+
+        .query-section {
+            width: 90%;
+            margin: auto;
+            height: auto;
+
+            .query-container.container {
+                width: 100%;
+                height: auto;
+                padding-bottom: 45px;
+                grid-template-columns: auto auto;
+
+                h3 {
+                    font-size: 16px !important;
+                    line-height: 20px !important;
+                }
+                p{
+                    font-size: 12px !important;
+                }
+
+                .query-button {
+                    grid-column-start: 2;
+                }
+            }
+
+        }
+
+        .banner-container-layout-3 {
+            height: 300px;
+
+            .banner-content {
+                width: 55%;
+                left: 15px;
+                top: 50px;
+                padding-right: 15px;
+
+                h1 {
+                    font-size: 22px;
+                    line-height: 25px;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+
+            .banner-image {
+                right: 15px;
+                width: 40%;
+                top: 50px;
+            }
+            .account-action {
+                a {
+                    height: 42px !important;
+                    width: 140px !important;
+                    font-size: 16px !important;
+                    line-height: 20px !important;
+                }
+            }
+        }
+
+        .feature-container.container.layout-3 {
+            h2,h5 {
+                font-size: 22px;
+                line-height: 25px;
+            }
+            p{
+                font-size: 16px;
+            }
+
+            .feature-list-layout-3 {
+
+                .card {
+                    width: 100%;
+                    margin-bottom: 30px;
+
+                    .card-title {
+                        font-size: 22px;
+                        line-height: 25px;
+                    }
+
+                    .card-text {
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+    .seller-central-container {
+        .banner-container {
+            .banner-content {
+                padding: 20px;
+                width: 70%;
+                height: 70%;
+                top: 15%;
+                right: 15%;
+
+                h1 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Admin/src" isTestSource="false" packagePrefix="Webkul\Admin\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Attribute/src" isTestSource="false" packagePrefix="Webkul\Attribute\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/BookingProduct/src" isTestSource="false" packagePrefix="Webkul\BookingProduct\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/CMS/src" isTestSource="false" packagePrefix="Webkul\CMS\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/CartRule/src" isTestSource="false" packagePrefix="Webkul\CartRule\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/CatalogRule/src" isTestSource="false" packagePrefix="Webkul\CatalogRule\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Category/src" isTestSource="false" packagePrefix="Webkul\Category\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Checkout/src" isTestSource="false" packagePrefix="Webkul\Checkout\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Core/src" isTestSource="false" packagePrefix="Webkul\Core\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Customer/src" isTestSource="false" packagePrefix="Webkul\Customer\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/DebugBar/src" isTestSource="false" packagePrefix="Webkul\DebugBar\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Inventory/src" isTestSource="false" packagePrefix="Webkul\Inventory\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Marketing/src" isTestSource="false" packagePrefix="Webkul\Marketing\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Marketplace/src" isTestSource="false" packagePrefix="Webkul\Marketplace\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/MarketplaceWarehouse/src" isTestSource="false" packagePrefix="Webkul\MarketplaceWarehouse\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Notification/src" isTestSource="false" packagePrefix="Webkul\Notification\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Payment/src" isTestSource="false" packagePrefix="Webkul\Payment\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Paypal/src" isTestSource="false" packagePrefix="Webkul\Paypal\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Product/src" isTestSource="false" packagePrefix="Webkul\Product\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Rule/src" isTestSource="false" packagePrefix="Webkul\Rule\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Sales/src" isTestSource="false" packagePrefix="Webkul\Sales\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Shipping/src" isTestSource="false" packagePrefix="Webkul\Shipping\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Shop/src" isTestSource="false" packagePrefix="Webkul\Shop\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Sitemap/src" isTestSource="false" packagePrefix="Webkul\Sitemap\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/SocialLogin/src" isTestSource="false" packagePrefix="Webkul\SocialLogin\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Tax/src" isTestSource="false" packagePrefix="Webkul\Tax\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Theme/src" isTestSource="false" packagePrefix="Webkul\Theme\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Ui/src" isTestSource="false" packagePrefix="Webkul\Ui\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/User/src" isTestSource="false" packagePrefix="Webkul\User\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/Webkul/Velocity/src" isTestSource="false" packagePrefix="Webkul\Velocity\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Admin/src" isTestSource="false" packagePrefix="Webkul\Admin\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Attribute/src" isTestSource="false" packagePrefix="Webkul\Attribute\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/BookingProduct/src" isTestSource="false" packagePrefix="Webkul\BookingProduct\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/CMS/src" isTestSource="false" packagePrefix="Webkul\CMS\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/CartRule/src" isTestSource="false" packagePrefix="Webkul\CartRule\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/CatalogRule/src" isTestSource="false" packagePrefix="Webkul\CatalogRule\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Category/src" isTestSource="false" packagePrefix="Webkul\Category\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Checkout/src" isTestSource="false" packagePrefix="Webkul\Checkout\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Core/src" isTestSource="false" packagePrefix="Webkul\Core\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Customer/src" isTestSource="false" packagePrefix="Webkul\Customer\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/DebugBar/src" isTestSource="false" packagePrefix="Webkul\DebugBar\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Inventory/src" isTestSource="false" packagePrefix="Webkul\Inventory\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Marketing/src" isTestSource="false" packagePrefix="Webkul\Marketing\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Notification/src" isTestSource="false" packagePrefix="Webkul\Notification\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Payment/src" isTestSource="false" packagePrefix="Webkul\Payment\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Paypal/src" isTestSource="false" packagePrefix="Webkul\Paypal\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Product/src" isTestSource="false" packagePrefix="Webkul\Product\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Rule/src" isTestSource="false" packagePrefix="Webkul\Rule\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Sales/src" isTestSource="false" packagePrefix="Webkul\Sales\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Shipping/src" isTestSource="false" packagePrefix="Webkul\Shipping\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Shop/src" isTestSource="false" packagePrefix="Webkul\Shop\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Sitemap/src" isTestSource="false" packagePrefix="Webkul\Sitemap\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/SocialLogin/src" isTestSource="false" packagePrefix="Webkul\SocialLogin\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Tax/src" isTestSource="false" packagePrefix="Webkul\Tax\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Theme/src" isTestSource="false" packagePrefix="Webkul\Theme\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Ui/src" isTestSource="false" packagePrefix="Webkul\Ui\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/User/src" isTestSource="false" packagePrefix="Webkul\User\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/packages/Webkul/Velocity/src" isTestSource="false" packagePrefix="Webkul\Velocity\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/tests/api" isTestSource="true" packagePrefix="Tests\API\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/tests/functional" isTestSource="true" packagePrefix="Tests\Functional\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/tests/trigger" isTestSource="true" packagePrefix="Tests\Trigger\" />
+      <sourceFolder url="file://$MODULE_DIR$/public_back/bagisto/tests/unit" isTestSource="true" packagePrefix="Tests\Unit\" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests/functional" isTestSource="true" packagePrefix="Tests\Functional\" />
+      <sourceFolder url="file://$MODULE_DIR$/tests/unit" isTestSource="true" packagePrefix="Tests\Unit\" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/astrotomic/laravel-translatable" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/bagisto/legacy-api" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/bagisto/rest-api" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/bagistobrasil/bagisto-product-social-share" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/barryvdh/laravel-debugbar" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/barryvdh/laravel-dompdf" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/behat/gherkin" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/codeception/codeception" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/codeception/lib-asserts" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/codeception/lib-innerbrowser" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/codeception/lib-web" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/codeception/lib-xml" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/codeception/module-asserts" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/codeception/module-filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/codeception/module-laravel" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/codeception/module-rest" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/codeception/module-webdriver" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/codeception/stub" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/diglactic/laravel-breadcrumbs" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/doctrine/event-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/dompdf/dompdf" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/enshrined/svg-sanitize" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/facade/ignition-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/flynsarmy/db-blade-compiler" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/fruitcake/php-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/intervention/image" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/intervention/imagecache" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/justinrainbow/json-schema" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/kalnoy/nestedset" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/khaled.alshamaa/ar-php" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/konekt/concord" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/konekt/enum" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/konekt/enum-eloquent" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/laravel/sanctum" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/laravel/scout" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/laravel/socialite" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/laravel/ui" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/lcobucci/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/league/config" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/league/glide" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/league/oauth1-client" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/maatwebsite/excel" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/maennchen/zipstream-php" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/markbaker/complex" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/markbaker/matrix" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/masterminds/html5" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/maximebf/debugbar" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/myclabs/php-enum" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/namshi/jose" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/nette/schema" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/nicmart/tree" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/paragonie/sodium_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/paypal/paypal-checkout-sdk" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/paypal/paypalhttp" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phenx/php-font-lib" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phenx/php-svg-lib" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/php-open-source-saver/jwt-auth" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/php-webdriver/webdriver" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phpoffice/phpspreadsheet" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/prettus/l5-repository" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/prettus/laravel-validation" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/pusher/pusher-php-server" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sabberworm/php-css-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/softcreatr/jsonpath" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/spatie/backtrace" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/spatie/browsershot" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/spatie/crawler" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/spatie/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/spatie/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/spatie/image" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/spatie/image-optimizer" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/spatie/laravel-ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/spatie/laravel-package-tools" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/spatie/laravel-sitemap" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/spatie/robots-txt" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/spatie/temporary-directory" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/stella-maris/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/browser-kit" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/dom-crawler" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/mailer" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/public_back/bagisto/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/astrotomic/laravel-translatable" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bagisto/laravel-datafaker" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bagistobrasil/bagisto-product-social-share" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/barryvdh/laravel-dompdf" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/behat/gherkin" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/beyondcode/laravel-er-diagram-generator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/codeception/codeception" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/codeception/lib-asserts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/codeception/lib-innerbrowser" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/codeception/lib-web" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/codeception/lib-xml" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/codeception/module-asserts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/codeception/module-filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/codeception/module-laravel" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/codeception/module-rest" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/codeception/module-webdriver" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/codeception/stub" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cviebrock/laravel-elasticsearch" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/diglactic/laravel-breadcrumbs" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/event-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dompdf/dompdf" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/elasticsearch/elasticsearch" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/enshrined/svg-sanitize" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ezimuel/guzzlestreams" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ezimuel/ringphp" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/facade/ignition-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/fruitcake/php-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/uri-template" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/intervention/image" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/intervention/imagecache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/justinrainbow/json-schema" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/kalnoy/nestedset" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/khaled.alshamaa/ar-php" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/konekt/concord" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/konekt/enum" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/konekt/enum-eloquent" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/helpers" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/pint" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/sanctum" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/socialite" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/ui" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/league/config" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/league/glide" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/league/oauth1-client" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/maatwebsite/excel" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/maennchen/zipstream-php" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/markbaker/complex" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/markbaker/matrix" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/masterminds/html5" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/maximebf/debugbar" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/php-enum" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/nette/schema" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/nicmart/tree" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/nunomaduro/termwind" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/paragonie/sodium_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/paypal/paypal-checkout-sdk" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/paypal/paypalhttp" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phenx/php-font-lib" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phenx/php-svg-lib" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/php-webdriver/webdriver" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpdocumentor/graphviz" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpoffice/phpspreadsheet" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/prettus/l5-repository" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/prettus/laravel-validation" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/pusher/pusher-php-server" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/react/promise" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sabberworm/php-css-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/softcreatr/jsonpath" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/backtrace" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/browsershot" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/crawler" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/image" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/image-optimizer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-package-tools" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-sitemap" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/robots-txt" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/temporary-directory" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/browser-kit" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/dom-crawler" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/mailer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/uid" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

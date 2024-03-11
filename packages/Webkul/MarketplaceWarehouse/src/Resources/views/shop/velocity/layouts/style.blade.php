@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="{{ asset('vendor/webkul/marketplaceWarehouse/assets/css/mpwarehouse.css') }}">
