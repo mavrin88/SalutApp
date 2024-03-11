@@ -155,7 +155,6 @@ class ReceiptWithdrawalController extends Controller
         $this->receipt->update($data, $receiptId);
 
 
-
         $this->saveRegionAfterStore($seller_id);
 
         session()->flash('success', trans('marketplace_warehouse::app.shop.warehouse.receipt-and-withdrawal.created-receipt-and-withdrawal'));
