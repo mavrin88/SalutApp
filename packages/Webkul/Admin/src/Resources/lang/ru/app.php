@@ -50,7 +50,7 @@ return [
         'visit-shop'               => 'Посетите магазин',
         'dashboard'                => 'Дашборд',
         'sales'                    => 'Продажи',
-        'orders'                   => 'Заказы3',
+        'orders'                   => 'Заказы',
         'shipments'                => 'Отгрузки',
         'invoices'                 => 'Счета',
         'refunds'                  => 'Возвраты',
