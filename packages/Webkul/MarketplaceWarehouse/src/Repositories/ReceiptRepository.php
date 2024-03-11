@@ -47,7 +47,7 @@ class ReceiptRepository extends Repository
     function getSimpleProducts($id)
     {
         $sellerProductIds = $this->sellerProduct->findWhere([
-            'is_owner' => 1,
+//            'is_owner' => 1,
             'is_approved' => 1,
             'marketplace_seller_id' => $id
         ])->pluck('product_id');
